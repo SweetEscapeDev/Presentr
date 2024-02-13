@@ -31,6 +31,7 @@
 		06BE3E4C1CED58DB0052424E /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06BE3E4B1CED58DB0052424E /* SourceSansPro-Regular.ttf */; };
 		06BE3E4E1CED58EA0052424E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06BE3E4D1CED58EA0052424E /* Montserrat-Regular.ttf */; };
 		28E70FD41D5E8AD600B0B885 /* KeyboardTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E70FD31D5E8AD600B0B885 /* KeyboardTranslation.swift */; };
+		407DFDEC2B7B2C2B0032996B /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407DFDEB2B7B2C2B0032996B /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		06BE3E4B1CED58DB0052424E /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
 		06BE3E4D1CED58EA0052424E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		28E70FD31D5E8AD600B0B885 /* KeyboardTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardTranslation.swift; sourceTree = "<group>"; };
+		407DFDEB2B7B2C2B0032996B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		0680CC251CE3EFA900CBAE4F = {
 			isa = PBXGroup;
 			children = (
+				407DFDEB2B7B2C2B0032996B /* Package.swift */,
 				0680CC311CE3EFA900CBAE4F /* Presentr */,
 				0680CC3D1CE3EFA900CBAE4F /* PresentrTests */,
 				0680CC301CE3EFA900CBAE4F /* Products */,
@@ -264,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0680CC251CE3EFA900CBAE4F;
@@ -306,6 +310,7 @@
 				06021446208592CA00036E68 /* FlipHorizontalAnimation.swift in Sources */,
 				06B5855B1D2D6F8B0045C8DA /* TransitionType.swift in Sources */,
 				06218DB71E897CAE00D6FE4B /* BackgroundView.swift in Sources */,
+				407DFDEC2B7B2C2B0032996B /* Package.swift in Sources */,
 				06B5855F1D2D6FE20045C8DA /* ModalCenterPosition.swift in Sources */,
 				06218DB81E897CAE00D6FE4B /* CoverVerticalAnimation.swift in Sources */,
 				06686C9D1CE947E200F88216 /* CoverHorizontalAnimation.swift in Sources */,
