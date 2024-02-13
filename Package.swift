@@ -38,7 +38,8 @@ let package = Package(
                 .copy("AlertViewController.xib"),
                 .copy("Montserrat-Regular.ttf"),
                 .copy("SourceSansPro-Regular.ttf")
-            ]
+            ],
+            publicHeadersPath: "."
         )
     ]
 )
